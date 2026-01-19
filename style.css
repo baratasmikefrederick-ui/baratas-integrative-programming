@@ -1,0 +1,14 @@
+.lorem {
+  color: red;
+  text-align: center;
+}
+.delete {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  border-color: blue;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
