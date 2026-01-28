@@ -5,10 +5,20 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  background-color: #0a0a0a;
-  color: #ffffff;
-  line-height: 1.6;
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.login-link {
+  color: #22d3ee;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  color: #38bdf8;
 }
 
 /* HERO SECTION */
@@ -82,6 +92,57 @@ body {
 
 .feature-box p {
   color: #9ca3af;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.login-link {
+  color: #22d3ee;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  color: #38bdf8;
+}
+
+.form-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #0a0a0a, #111827);
+  padding: 20px;
+}
+
+form.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+form.login-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #1f2937;
+  background-color: #111827;
+  color: #fff;
+}
+
+form.login-form input::placeholder {
+  color: #9ca3af;
+}
+
+form.login-form button {
+  margin-top: 10px;
 }
 
 /* FOOTER */

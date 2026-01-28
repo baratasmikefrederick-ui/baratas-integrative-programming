@@ -15,6 +15,7 @@ The purpose is to present a concept clearly and attractively using only HTML and
 
 - Full-screen hero section with call-to-action button
 - Futuristic and minimal design
+- Multi-page navigation (Landing → Login → Signup) - Consistent UI styling across pages
 - Organized content section with footer
 
 ## AI Assistance Disclosure
